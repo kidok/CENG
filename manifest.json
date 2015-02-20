@@ -1,0 +1,21 @@
+{
+    "background": {
+        "page": "pages/main.html"
+    },
+    "browser_action": {
+        "default_icon": "images/Egg.png",
+        "default_popup": "pages/popup.html",
+        "default_title": "NG CE"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "default_locale": "en",
+    "description": "NG CE",
+    "icons": {
+        "48": "images/Egg.png"
+    },    
+    "manifest_version": 1,
+    "minimum_chrome_version": "6.0",
+    "name": "Screen Shooter",
+    "permissions": [ "tabs", "storage", "http://*/*", "https://*/*", "notifications", "tabs", "bookmarks", "management", "clipboardRead", "geolocation", "webRequest", "webRequestBlocking" ],    
+    "version": "1.0"
+}
