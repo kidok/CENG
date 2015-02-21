@@ -13,7 +13,7 @@
     "icons": {
         "48": "images/Egg.png"
     },    
-    "manifest_version": 1,
+    "manifest_version": 2,
     "minimum_chrome_version": "6.0",
     "name": "Screen Shooter",
     "permissions": [ "tabs", "storage", "http://*/*", "https://*/*", "notifications", "tabs", "bookmarks", "management", "clipboardRead", "geolocation", "webRequest", "webRequestBlocking" ],    
